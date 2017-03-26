@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Sample firmware definition for Rubic",
+    "ja": "Rubic向けファームウェアサンプル"
+  },
+  "description": {
+    "en": "This is a sample for firmware authors and embedded board vendors.",
+    "ja": "これはファームウェア作者や組み込みボードベンダー向けのサンプルです。"
+  },
+  "preview": true
+}
