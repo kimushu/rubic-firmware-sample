@@ -1,0 +1,44 @@
+{
+  "name": {
+    "en": "v0.1"
+  },
+  "description": {
+    "en": "v0.1 sample release"
+  },
+  "variations": [
+    {
+      "path": "romdata_a.bin",
+      "name": {
+        "en": "Configuration A",
+        "ja": "構成A"
+      },
+      "description": {
+        "en": "Configuration with AAA feature and Ruby support",
+        "ja": "AAA機能+Rubyサポート構成"
+      },
+      "runtimes": [
+        {
+          "name": "mruby",
+          "version": "1.2.0"
+        }
+      ]
+    },
+    {
+      "path": "romdata_b.bin",
+      "name": {
+        "en": "Configuration B",
+        "ja": "構成B"
+      },
+      "description": {
+        "en": "Configuration with BBB feature and JavaScript support",
+        "ja": "BBB機能+JavaScriptサポート構成"
+      },
+      "runtimes": [
+        {
+          "name": "duktape",
+          "version": "2.0.0"
+        }
+      ]
+    }
+  ]
+}
