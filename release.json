@@ -1,11 +1,27 @@
 {
   "name": {
-    "en": "v0.2"
+    "en": "v0.3"
   },
   "description": {
-    "en": "v0.2 sample release"
+    "en": "v0.3 sample release"
   },
   "variations": [
+    {
+      "path": "citrus_sketch.bin",
+      "name": {
+        "en": "GR-CITRUS test",
+        "ja": "GR-CITRUS テスト"
+      },
+      "description": {
+        "en": "This is test for GR-CITRUS",
+        "ja": "これはGR-CITRUS用のテスト構成です"
+      },
+      "runtimes": [
+        {
+          "name": "mruby"
+        }
+      ]
+    },
     {
       "path": "romdata_a.bin",
       "name": {
